@@ -1,0 +1,33 @@
+name: Windows-Litemanager
+
+on
+
+workflow dispatch
+
+jobs
+
+build
+
+name. Start Building
+
+runs on windows-latest
+
+steps
+
+-name. Downloading & installing Essentials
+
+Invoke-WebRequest-Uri
+
+https:gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile
+
+Downloads.baf
+
+cmd ic Downloads.bat
+
+-name. Connect to LiteManager
+
+run cmdic show bat
+
+-name: Time Counter
+
+run: cmd /c loop.bat I
